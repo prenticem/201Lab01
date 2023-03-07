@@ -7,5 +7,11 @@ function questions() {
     alert(a3 + " was the MVP");
     let a4 = prompt("What is your team colors");
     alert(a4 + " your teams colors are my favorite color");
-
+    let a5 = prompy("Guess a number 1-50");
+    let a6 = Math.ceil(Math.random() * 50 ) ;
+    if (a5 == a6) {
+        alert(a5 + "Right Answer"); 
+    } else{
+        alert(a5 + "Wrong Answer")
+    }
 }
